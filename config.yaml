@@ -1,0 +1,18 @@
+baseURL: https://demo-hugo.netlify.app/
+languageCode: fr-ch
+title: Demo Hugo
+
+defaultContentLanguage: fr
+languageCode: fr-ch
+
+disableFastRender: true
+cleanDestinationDir: true
+removePathAccents: true
+
+disableKinds:
+  - RSS
+  - robotsTXT
+  - sitemap
+  - taxonomy
+  - term
+  - 404
