@@ -2,5 +2,13 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
-List
+{{ range .Pages }}
+<h2> 
+    <a href="{{ .RelPermalink }}">{{.Title}}</a> 
+    {{ if .Params.image }}📷{{ end }}
+</h2>
+
+{{ end }}
+
+
 {{ end }}
